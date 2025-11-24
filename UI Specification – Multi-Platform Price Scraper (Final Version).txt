@@ -1,0 +1,195 @@
+🎨 UI Specification – Multi-Platform Price Scraper (Final Version)
+
+For UI/UX Designer – Full Requirements
+
+1️⃣ Default View (Before Scraping)
+
+The landing layout is simple, clean, and minimal:
+
+Top Input Section
+
+A single large input bar
+
+Placeholder: “Paste product URL…”
+
+On the right side (inline), a primary “Scrape” button
+
+Both elements are centered, with a modern SaaS look (soft shadows, rounded edges)
+
+This top bar is the hero element of the default state.
+
+2️⃣ Results View (After Scraping)
+
+Once user clicks Scrape, show:
+
+📌 Product Image
+
+A large product image displayed on the left side
+
+Keep aspect ratio clean, good padding, soft card background
+
+3️⃣ Price Comparison Containers
+
+On the right side of the product image, show multiple platform cards:
+
+Platform Cards (Displayed Only If Data Found)
+
+Amazon — Container 1
+
+Flipkart — Container 2
+
+Myntra — Container 3
+
+(Ajio optional, not mandatory)
+
+Each platform container must include:
+
+Platform logo + name
+
+Price
+
+Availability
+
+Rating (star-based)
+
+View Product button
+
+Very important rule:
+
+If a platform has no data, DO NOT show its container.
+Only show containers for platforms where the scraping succeeded.
+
+4️⃣ Dynamic “Scraped Platforms” Buttons
+
+After scraping, directly under the search bar, a new horizontal button group appears.
+
+Example:
+
+If data found on Amazon & Flipkart →
+Show two buttons:
+
+Amazon
+
+Flipkart
+
+If only Amazon → Only Amazon button appears
+If three → Show all three
+
+Purpose:
+
+When the user clicks one of these buttons →
+Show detailed product information from that specific platform.
+
+5️⃣ Detailed Product View (After Clicking Platform Button)
+
+This section appears below the price containers.
+
+Detailed view includes:
+
+Large product image
+
+Full product description
+
+Product details/specifications
+
+Any additional metadata from the scraper
+
+Clean, readable layout with spacing
+
+This is like an “expanded view” per platform.
+
+💎 Professional Description for UI Designer (Final Draft)
+
+Below is the polished version you can send directly to a designer:
+
+📝 UI/UX Brief – Multi-Platform Price Scraper Dashboard
+
+The goal is to design a clean, modern, and intuitive interface for a web tool that scrapes a product URL and shows prices across multiple e-commerce platforms.
+
+1. Default State
+
+A minimal layout featuring:
+
+One central product URL input field
+
+A “Scrape” button aligned to the right of the input
+
+Balanced spacing and a light, modern SaaS theme
+
+This is the primary call-to-action before any data is loaded.
+
+2. Scrape Result Layout
+
+Once the user performs a scrape:
+
+Left Section
+
+Large product image displayed in a soft-card container
+
+Right Section
+
+A vertical list of platform price cards
+
+Only show the platforms where data exists
+
+Amazon
+
+Flipkart
+
+Myntra
+
+Each card contains:
+
+Platform logo + title
+
+Price
+
+Availability
+
+Star rating
+
+“View Product” button
+
+Containers should be clean, consistent, and visually distinct.
+
+3. Scraped Platforms Filter Buttons
+
+Directly below the search bar:
+
+Dynamically generated buttons based on successful platforms
+
+Example:
+
+If product found on Amazon + Flipkart → show those two buttons only
+
+These buttons let users switch views between platform-specific details
+
+4. Detailed Product Information Panel
+
+When a platform button is clicked:
+
+Show a detailed view containing:
+
+Larger product image
+
+Full product description
+
+Product details/specifications
+
+The layout should resemble a clean, readable product page section
+
+The content updates based on the selected platform
+
+Overall Themes
+
+Light mode
+
+Blue + white base palette
+
+Rounded corners, soft shadows
+
+Clean typography (e.g., Inter, Poppins, SF Pro)
+
+Layout must feel modern, spacious, and easy to scan
+
+No clutter; focus on clarity and usability
